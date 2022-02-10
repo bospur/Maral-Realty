@@ -172,3 +172,16 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     text-transform: uppercase;
     color: #756532;
 }
+
+.slider {
+    margin-top: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+.slider__row{
+    display: flex;
+    justify-content: space-between;
+}
+.slider__item:not(:last-child){
+    margin-right: 30px;
+}
