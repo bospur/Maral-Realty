@@ -190,16 +190,16 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .dreams {
     margin-top: 30px;
     width: 100%;
-    min-height: 893px;
-    background-image: url(../img/main/section_1/Фон.png);
+    max-height: 893px;
+    background-image: url(../img/main/section_1/fon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-bottom: 164px;
 }
 
 
 .dreams__container {
-   height: 100%;
     padding-top: 40px;
 }
 .dreams__text {
@@ -259,4 +259,42 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 .card__icon {
     margin-bottom: 17px;
+}
+
+
+.main__cat {
+    margin-top: -70px;
+    background-image: url(../img/main/section_2/Fon.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cat__container {
+    padding-top: 100px;
+    padding-bottom: 118px;
+}
+
+.cat__title {
+    text-align: left;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #6F6F6F;
+    margin-bottom: 55px;
+}
+
+.info__item {
+    display: flex;
+    align-items: center;
+}
+.info__item:not(:last-child){
+    margin-bottom: 40px
+}
+.info__item img {
+    margin-right: 20px;
 }
