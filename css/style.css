@@ -73,6 +73,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     width: 1180px;
 }
 
+.text-gradient{
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, #6F6F6F, #4E4E4E);
+}
 .menu__list{
     display: flex;
     justify-content: space-between;
@@ -276,7 +282,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 
 .cat__title {
-    
     text-align: left;
     font-family: Forum;
     font-style: normal;
@@ -292,10 +297,89 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .info__item {
     display: flex;
     align-items: center;
+    font-family: "TTFirsNeue regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
 }
 .info__item:not(:last-child){
     margin-bottom: 40px
 }
 .info__item img {
     margin-right: 20px;
+}
+
+.realty {
+    background-image: url(../img/main/section_3/Фон.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 178px;
+}
+.realty__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.realty__title {
+    margin-right: 60px;
+    font-family: "TTFirsNeue regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    
+}
+.realty__subtitle {
+    margin-right: 130px;
+    font-family: 'BerlingskeSerif';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 225%;
+/* identical to box height, or 225% */
+    margin-bottom: 45px;
+}
+
+.realty__speech {
+    font-family: "TTFirsNeue regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 100px;
+}
+.realty__img {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.realty__list{
+    margin-right: 60px;
+   
+
+}
+.realty__item_text{
+    margin-left: 25px;
+    font-family: "TTFirsNeue regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 135%;
+}
+
+.realty__item:not(:last-child){
+    margin-bottom: 20px;
+}
+.realty__item::before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/main/section_3/Star.svg);
+    background-position: center;
+    background-repeat: no-repeat;    
 }
