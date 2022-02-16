@@ -385,7 +385,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 
 
-
+.choice {
+    background-image: url(../img/main/section_4/КвадракоптерRight.png), url(../img/main/section_4/КвадрокоптерLeft.png);
+    background-position: right bottom, left bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+}
 .choice__container {
     padding: 80px 50px 0 50px;
     text-align: center;
@@ -516,9 +521,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .chat__message:nth-child(2) p{
     margin-right: 25px;
 }
-.chat__message_avatar {
-    
-}
+
 .chat__message_text {
     font-family: "TTFirsNeue regular";
     font-style: normal;
@@ -526,5 +529,28 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     font-size: 20px;
     line-height: 27px;
     text-align: center;
+}
+
+.chat__message:nth-child(1) .chat__message_text {
+    padding-top: 8px;
+    color: #6F6F6F;
+    width: 373px;
+    height: 47px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    position: relative;
+}
+.chat__message:nth-child(1) .chat__message_text::before, .chat__message:nth-child(1) .chat__message_text::after{
+    content: ''; 
+    position: absolute;
+    left: -20px; bottom: 5px;
+    border: 10px solid transparent;
+    border-right: 10px solid rgba(0, 0, 0, 0.055);
+}
+.chat__message:nth-child(1) .chat__message_text::after{
+    border-right: 10px solid rgb(255, 255, 255);
+    bottom: 4px;
 }
 
