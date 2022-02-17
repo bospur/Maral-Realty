@@ -385,12 +385,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 
 
-.choice {
-    background-image: url(../img/main/section_4/КвадракоптерRight.png), url(../img/main/section_4/КвадрокоптерLeft.png);
-    background-position: right bottom, left bottom;
-    background-repeat: no-repeat, no-repeat;
-    background-size: auto, auto;
-}
+
 .choice__container {
     padding: 80px 50px 0 50px;
     text-align: center;
@@ -554,3 +549,39 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     bottom: 4px;
 }
 
+
+.broadcast {
+    position: relative;
+    min-width: 100%;
+    background-image: url(../img/main/section_5/fon.png);
+    background-position:  center;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+}
+.quadrocopter-left {
+    position: absolute;
+    top: -150px;
+    left: -50px;
+}
+.quadrocopter-right {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.broadcast__container {
+    padding-top: 109px;
+}
+
+.broadcast__title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.broadcast__video {
+    margin-bottom: 126px;
+}
