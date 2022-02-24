@@ -882,5 +882,107 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     padding: 20px 0;
     color: #4E4E4E;
 }
+.card__button:hover{
+    background: linear-gradient(180deg, #F2E0A9 0%, #E8CD80 100%);
+    background-blend-mode: soft-light, normal;
+    box-shadow: inset 0px 10px 10px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+}
 .apartments__look {
+    font-family: 'TTFirsNeue regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin: 60px 0 90px 0;
+    display: flex;
+    align-items: center;
+}
+.apartments__look img {
+    margin-left: 10px;
+}
+
+.education {
+    background-image: url(../img/main/section_8/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.education__container {
+    font-family: 'TTFirsNeue regular';
+    font-style: normal;
+    font-weight: normal;
+    padding: 80px 0px 85px 0px;
+}
+.education__question {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.education__avatar {
+    margin-right: 55px;
+}
+.education__message {
+    font-size: 20px;
+    line-height: 135px;
+
+}
+.education__title {
+    font-family: Forum;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.education__subtitle {
+    display: inline-block;
+    font-family: 'BerlingskeSerif';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+.education__listTitle {
+    max-width: 530px;
+    height: 36px;
+    padding: 13px 0 10px 0;
+    font-size: 13px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F1F1F1 0%, #FFFFFF 100%);
+    box-shadow: inset 2px 2px 50px rgba(224, 224, 224, 0.25);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #4E4E4E;
+
+}
+.education__list {
+    font-size: 18px;
+    line-height: 150%;
+    text-shadow: 0px 0px 40px #FFFFFF, 0px 0px 50px #FFFFFF;
+}
+.education__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.education__item{
+    padding-left: 35px;
+    position: relative;
+}
+.education__item::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    background-image: url(../img/main/section_8/icon.png);
 }
