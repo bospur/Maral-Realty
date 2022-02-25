@@ -984,3 +984,81 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     left: 0;
     background-image: url(../img/main/section_8/icon.png);
 }
+
+.cyprus {
+    background-image: url(../img/main/section_9/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.cyprus__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.cyprus__circles {
+    margin: 50px 0px 45px 0px;
+    display: block;    
+}
+.cyprus__title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.cyprus__subtitle {
+    font-family: 'BerlingskeSerif';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.cyprus__house_icon {
+    margin: 0px 10px 0px 10px;
+}
+.cards {
+    background: linear-gradient(180deg, #F1F1F1 0%, #FFFFFF 100%);
+    border-radius: 10px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'TTFirsNeue regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 139%;
+    padding: 0 20px;
+}
+.cyprus__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.cyprus__top .cards{
+    padding-bottom: 30px;
+}
+.cyprus__bottom{
+    display: flex;
+    margin-bottom: 130px;
+}
+.cyprus__bottom .cards{
+    padding-bottom: 40px;
+}
+.cyprus__bottom .cards:not(:last-child){
+    margin-right: 40px;
+}
+
+.cards__icon {
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
