@@ -540,9 +540,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     height: 47px;
     text-align: center;
     background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    box-sizing: border-box;
-    position: relative;
+    
 }
 .chat__message:nth-child(1) .chat__message_text::before, .chat__message:nth-child(1) .chat__message_text::after{
     content: ''; 
